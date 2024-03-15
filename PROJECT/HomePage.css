@@ -1,0 +1,32 @@
+body{
+    margin:0;
+  	padding:0;
+  	box-sizing:border-box;
+	background-image: url("PICS/back11.svg");
+    background-size: cover;
+	background-color: #e5d5bd;
+}
+header{
+	align-items: start;
+}
+#header1 {
+	align-content: start;
+	z-index: -5;
+	width: 100%;
+	left: 0;
+
+}
+p{
+	margin-left: 5px;
+}
+#stcph{
+	position: fixed;
+	position: -webkit-sticky;
+	align-content: end;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	opacity: 90%;
+
+}
+
