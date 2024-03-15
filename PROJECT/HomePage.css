@@ -29,4 +29,11 @@ p{
 	opacity: 90%;
 
 }
+#Title{
+color: blueviolet;
+font-family: 'Courier New', Courier, monospace;
 
+}
+#Text{
+color: rgb(4, 0, 253);
+}
