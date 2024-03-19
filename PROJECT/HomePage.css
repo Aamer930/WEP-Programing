@@ -1,7 +1,7 @@
 body{
     margin:0;
-      padding:0;
-      box-sizing:border-box;
+    padding:0;
+    box-sizing:border-box;
     background-image: url("PICS/back11.svg");
     background-size: cover;
     background-color: #e5d5bd;
@@ -32,8 +32,12 @@ p{
 #title{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    color:#376558;
-    font-size: 50;
+    color: rgb(233, 70, 0);
+    font-size: 80;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 #text{
@@ -43,12 +47,39 @@ p{
 
 }
 #HomeHeader{
-	font-size: 35;
-	color: #4E6AD1;
-	font-family: 'Times New Roman', Times, serif;
-	font-weight: bolder;
+    font-size: 35;
+    color: #4E6AD1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 #HomeP1{
 color: black;
 font-size: 25;
+}
+#text-character{
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:justify;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+
+}
+.character-font{
+    font-size: 35;
+    color: rgb(233, 70, 0);
+
+}
+.title-about{
+
+    color: black;
 }
