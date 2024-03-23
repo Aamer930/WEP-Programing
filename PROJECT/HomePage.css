@@ -5,6 +5,7 @@ body{
     background-image: url("PICS/back11.svg");
     background-size: cover;
     background-color: #e5d5bd;
+    z-index: 10;
 }
 header{
     align-items: start;
@@ -19,16 +20,7 @@ header{
 p{
     margin-left: 5px;
 }
-#stcph{
-    position: fixed;
-    position: -webkit-sticky;
-    align-content: end;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    opacity: 80%;
 
-}
 #title{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -70,9 +62,6 @@ font-size: 25;
     line-height: 50px;
     margin-left: 50px;
     margin-right: 50px;
-
-
-
 }
 .character-font{
     font-size: 35;
@@ -83,7 +72,44 @@ font-size: 25;
 
     color: black;
 }
-
+.gallery {
+  margin: 5px;
+  border: 1px solid #ffd700;
+  float: left;
+  width: 140px;
+  z-index: -5;
+}
+.gallery:hover {
+  border: 1px solid #777;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+#stcph{
+    position: fixed;
+    position: -webkit-sticky;
+    align-content: end;
+    justify-content: end;
+    bottom: 0;
+    width: 60%;
+    right: 0;
+    opacity: 80%;
+    padding: 0%;
+    margin: 0%;
+}
+#stcphpyr{
+    position: fixed;
+    position: -webkit-sticky;
+    align-content: end;
+    justify-content: end;
+    bottom: 0;
+    width: 40%;
+    right: 0;
+    opacity: 80%;
+    padding: 0%;
+    margin: 0%;
+}
 
 
 
@@ -94,6 +120,7 @@ font-size: 25;
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
+    display: flex;
   }
   
   /* Style the links inside the navigation bar */
@@ -144,7 +171,10 @@ font-size: 25;
 
 /* Show the dropdown content when hovering over the dropdown button */
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: grid;
+    z-index: 100;
+    position: fixed;
+    
 }
 
 /* Style the dropdown links */
@@ -154,6 +184,7 @@ font-size: 25;
     text-decoration: none;
     display: block;
     margin-top: 25px;
+    
 }
 
 /* Change color of dropdown links on hover */
